@@ -15,7 +15,7 @@ const [locationSearch, setLocationSearch] = useState()
 
   return (
     <div className='App'>
-      <img className='backRickMorty' src="./src/img/1366_2000.jpeg" alt="" />
+      <img className='backRickMorty' src="./img/1366_2000.jpeg" alt="" />
       <InputSearch
       setLocationSearch={setLocationSearch}
       /> 
