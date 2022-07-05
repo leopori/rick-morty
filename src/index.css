@@ -1,13 +1,146 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+/* Set core body defaults */
+
+@import url('https://fonts.googleapis.com/css2?family=Hubballi&display=swap');
+
+/* Box sizing rules */
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+/* Remove default margin */
+body,
+h1,
+h2,
+h3,
+h4,
+p,
+figure,
+blockquote,
+dl,
+dd {
+    margin: 0;
+}
+
+/* Remove list styles on ul, ol elements with a list role, which suggests default styling will be removed */
+ul[role='list'],
+ol[role='list'] {
+    list-style: none;
+}
+
+
+body {
+    min-height: 100vh;
+    text-rendering: optimizeSpeed;
+    line-height: 1.2;
+    background-color: #05292e;
+    color: white;
+    font-family: 'Hubballi', cursive;
+    font-size: 1.3rem;
+}
+
+/* Set core root defaults */
+html:focus-within {
+    scroll-behavior: smooth;
+}
+
+
+/*Setting the App RickMorty*/
+.App {
+    width: 100%;
+}
+
+h2 {
+    font-weight: bold;
+    margin-top: 2rem;
+
+}
+
+
+
+/*Image in the RickAndMortyApp*/
+.backRickMorty {
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+}
+
+/*CardCharacter Styles*/
+.div-flex {
+    display: flex;
+    gap: 10px;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+
+.card-character {
+
+    width: max(48%, 300px);
+    padding: 2rem;
+    border-radius: 20px;
+    margin: 0 auto;
+    font-size: 1.5rem;
+    text-align: center;
+
+
+
+
+}
+
+.blueback {
+    background-color: #062226;
+}
+
+.card-character>ul>li {
+    list-style: none;
+}
+
+
+.character-img {
+    margin: 0 auto;
+    border-radius: 20px;
+}
+
+
+/*LocationInfo sytles*/
+
+
+.wrapper {
+    width: min(90%, 1000px);
+    margin: 2rem auto;
+    border-radius: 30px;
+    padding: 1rem;
+
+}
+
+.wrapper>ul>li {
+    list-style: none;
+}
+
+
+.location-info {
+    padding-left: 0;
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    gap: 10px;
+    justify-content: space-around;
+}
+
+h3 {
+    color: #e1d356;
+    font-size: 1.7rem;
+    font-weight: 700;
+}
+
+
+/*InputSearch styles*/
+
+.location-Search {
+    display: flex;
+    justify-content: center;
 }
