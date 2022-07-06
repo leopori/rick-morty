@@ -3,7 +3,7 @@ import CardCharacters from './components/CardCharacters'
 import InputSearch from './components/InputSearch'
 import LocationInfo from './components/LocationInfo'
 import useLocationApi from './hook/useLocationApi'
-import '../img/1366_2000.jpeg' from './img'
+import '../img/1366_2000.jpeg' 
 
 
 
