@@ -3,7 +3,6 @@ import CardCharacters from './components/CardCharacters'
 import InputSearch from './components/InputSearch'
 import LocationInfo from './components/LocationInfo'
 import useLocationApi from './hook/useLocationApi'
-import '../img/1366_2000.jpeg'
 import Pagination from './components/Pagination'
 
 
@@ -50,7 +49,13 @@ const RickAndMortyApp = () => {
 
   return (
     <div className='App'>
-      <img className='backRickMorty' src="./img/1366_2000.jpeg" alt="" />
+      <div className='header__logo-box'>
+      
+      </div>
+      <div className='for-typing'>
+      <h1 >Ya escribe algo!!</h1>
+      </div>
+      
       <InputSearch
         setLocationSearch={setLocationSearch}
       />
