@@ -144,3 +144,39 @@ h3 {
     display: flex;
     justify-content: center;
 }
+
+
+
+/*Pagination Style*/
+.pagination-button {
+    border: none;
+    color: aliceblue;
+    margin-left: 2px;
+    cursor: pointer;
+    border-radius: 50%;
+    font-size: 2rem;
+    padding-inline: 1rem;
+}
+
+
+.Pagination-container{
+    margin-block: 2rem;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 1rem;
+    align-items: center;
+}
+
+.Pagination-container-number{
+    margin-block: 2rem;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+.pagination-number{
+    color: aliceblue;
+    list-style: none;
+    justify-content: center;
+}
